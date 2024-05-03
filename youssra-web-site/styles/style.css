@@ -1,0 +1,28 @@
+p {
+    color: black;
+  }
+
+.nav-links {
+  list-style-type: none; /* Supprime les puces */
+  margin: 0;
+  padding: 0;
+  /* Utilise Flexbox pour organiser le contenu en ligne */
+  display: flex;
+  align-items: center; /* Centre les éléments verticalement */
+  gap: 10px; /* Espacement entre les éléments */
+}
+
+h1.newStyle{
+  font-weight: bold;
+  font-size: 4em;
+  text-align: center;
+}
+
+img {
+  max-width : 600px;
+  height : auto;
+  }
+
+body{
+  background-color: #753b19;
+}
